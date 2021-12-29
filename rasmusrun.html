@@ -10,14 +10,20 @@
 </head>
 <body onkeypress="keyDown(event)">
     <button class="backButton" onclick="window.location.href='index.html'">Meny</button>
+    <div class="pointCounter">Points: 0</div>
     <div class="canvas">
-        <img src="/assets/ground.png" alt="ground" id="ground" width="7680px">
-        <img src="/assets/player.jpg" alt="player" id="player">
-        <img src="/assets/obstacle.png" alt="obstacle1" id="obstacle1" class="obstacle">
-        <img src="/assets/obstacle.png" alt="obstacle2" id="obstacle2" class="obstacle">
-        <img src="/assets/point.png" alt="point1" id="point1" class="obstacle">
-        <img src="/assets/point.png" alt="point2" id="point2" class="obstacle">
+        <img src="./assets/ground.png" alt="ground" id="ground" width="7680px">
+        <img src="./assets/player.jpg" alt="player" id="player">
+        <img src="./assets/obstacle.png" alt="obstacle1" id="obstacle1" class="obstacle">
+        <img src="./assets/obstacle.png" alt="obstacle2" id="obstacle2" class="obstacle">
+        <img src="./assets/point.png" alt="point1" id="point1" class="point">
+        <img src="./assets/point.png" alt="point2" id="point2" class="point">
+        <div class="deathScreen">
+            <div class="deathText">Döden</div>
+        </div>
     </div>
+
+    
 
     <script src="game.js"></script>
 </body>

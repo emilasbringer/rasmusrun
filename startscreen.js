@@ -30,6 +30,6 @@ function poop() {
 function killChicken() {
     console.log("KIlling the chicken fucker")
     chicken.style.top = "470px";
-    chicken.src = "/assets/deadChicken.png";
+    chicken.src = "./assets/deadChicken.png";
     
 }
